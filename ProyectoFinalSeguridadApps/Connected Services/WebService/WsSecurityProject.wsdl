@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WsSecurityProject" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/WsSecurityProject/WsSecurityProject.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost/WsSecurityProject/WsSecurityProject.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/WsSecurityProject/WsSecurityProject.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WCFSeguridadApps" />
+      <xsd:import schemaLocation="http://localhost/WsSecurityProject/WsSecurityProject.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Business_SeguridadApps.StructuresObj" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISecurityProject_ValidateInputText_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateInputText" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityProject_ValidateInputText_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateInputTextResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityProject_GetCreditCardNum_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCreditCardNum" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityProject_GetCreditCardNum_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCreditCardNumResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityProject_ProcessCreditCardNumber_InputMessage">
+    <wsdl:part name="parameters" element="tns:ProcessCreditCardNumber" />
+  </wsdl:message>
+  <wsdl:message name="ISecurityProject_ProcessCreditCardNumber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ProcessCreditCardNumberResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ISecurityProject">
+    <wsdl:operation name="ValidateInputText">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISecurityProject/ValidateInputText" message="tns:ISecurityProject_ValidateInputText_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISecurityProject/ValidateInputTextResponse" message="tns:ISecurityProject_ValidateInputText_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCreditCardNum">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISecurityProject/GetCreditCardNum" message="tns:ISecurityProject_GetCreditCardNum_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISecurityProject/GetCreditCardNumResponse" message="tns:ISecurityProject_GetCreditCardNum_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ProcessCreditCardNumber">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISecurityProject/ProcessCreditCardNumber" message="tns:ISecurityProject_ProcessCreditCardNumber_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISecurityProject/ProcessCreditCardNumberResponse" message="tns:ISecurityProject_ProcessCreditCardNumber_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ISecurityProject" type="tns:ISecurityProject">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ValidateInputText">
+      <soap:operation soapAction="http://tempuri.org/ISecurityProject/ValidateInputText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCreditCardNum">
+      <soap:operation soapAction="http://tempuri.org/ISecurityProject/GetCreditCardNum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProcessCreditCardNumber">
+      <soap:operation soapAction="http://tempuri.org/ISecurityProject/ProcessCreditCardNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WsSecurityProject">
+    <wsdl:port name="BasicHttpBinding_ISecurityProject" binding="tns:BasicHttpBinding_ISecurityProject">
+      <soap:address location="http://localhost/WsSecurityProject/WsSecurityProject.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

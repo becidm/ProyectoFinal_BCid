@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bcf1e8d8-b642-45a3-9a5a-f589e2817dd7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/WsSecurityProject/WsSecurityProject.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WsSecurityProject.xsd" MetadataType="Schema" ID="5ef4f788-d2ce-4dec-ac69-2eb32bcda247" SourceId="1" SourceUrl="http://localhost/WsSecurityProject/WsSecurityProject.svc?xsd=xsd2" />
+    <MetadataFile FileName="WsSecurityProject1.xsd" MetadataType="Schema" ID="926c173d-9f3f-4882-93ae-03c02cdec1ad" SourceId="1" SourceUrl="http://localhost/WsSecurityProject/WsSecurityProject.svc?xsd=xsd3" />
+    <MetadataFile FileName="WsSecurityProject2.xsd" MetadataType="Schema" ID="cffea40c-2a2d-42bc-93ff-f18df2d36b9f" SourceId="1" SourceUrl="http://localhost/WsSecurityProject/WsSecurityProject.svc?xsd=xsd0" />
+    <MetadataFile FileName="WsSecurityProject3.xsd" MetadataType="Schema" ID="2c998a62-b6cb-48bd-be9d-8d2f2f14ed4a" SourceId="1" SourceUrl="http://localhost/WsSecurityProject/WsSecurityProject.svc?xsd=xsd1" />
+    <MetadataFile FileName="WsSecurityProject.disco" MetadataType="Disco" ID="a12c5f11-61a5-4973-8254-c54cd9196235" SourceId="1" SourceUrl="http://localhost/WsSecurityProject/WsSecurityProject.svc?disco" />
+    <MetadataFile FileName="WsSecurityProject.wsdl" MetadataType="Wsdl" ID="352fbf70-a1f8-4790-9886-9d722a11477b" SourceId="1" SourceUrl="http://localhost/WsSecurityProject/WsSecurityProject.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

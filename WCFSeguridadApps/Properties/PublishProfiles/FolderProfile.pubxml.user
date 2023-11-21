@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\Publish</_PublishTargetUrl>
+    <History>True|2023-11-16T23:41:14.3213147Z;True|2023-11-16T17:39:28.9544065-06:00;True|2023-11-13T19:10:00.8708203-06:00;True|2023-11-13T14:34:35.7042452-06:00;True|2023-11-13T14:31:17.0573719-06:00;True|2023-11-13T14:13:38.8112403-06:00;True|2023-11-13T14:05:35.0305436-06:00;True|2023-11-13T14:02:00.6089289-06:00;True|2023-11-13T13:56:13.2278644-06:00;True|2023-11-13T13:01:07.8116403-06:00;True|2023-11-13T12:58:07.0095689-06:00;True|2023-11-13T12:57:47.9792091-06:00;True|2023-11-13T12:56:29.5513591-06:00;True|2023-11-13T12:50:22.4697285-06:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Business_SeguridadApps.dll">
+      <publishTime>11/16/2023 17:41:00</publishTime>
+    </File>
+    <File Include="bin/Business_SeguridadApps.pdb">
+      <publishTime>11/16/2023 17:41:00</publishTime>
+    </File>
+    <File Include="bin/WCFSeguridadApps.dll">
+      <publishTime>11/16/2023 17:41:13</publishTime>
+    </File>
+    <File Include="bin/WCFSeguridadApps.pdb">
+      <publishTime>11/16/2023 17:41:13</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/13/2023 12:50:22</publishTime>
+    </File>
+    <File Include="WsSecurityProject.svc">
+      <publishTime>11/13/2023 13:00:58</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

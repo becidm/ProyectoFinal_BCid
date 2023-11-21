@@ -1,0 +1,10 @@
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\bin\WCFSeguridadApps.dll.config
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\bin\WCFSeguridadApps.dll
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\bin\WCFSeguridadApps.pdb
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\bin\Business_SeguridadApps.dll
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\bin\Business_SeguridadApps.pdb
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\obj\Debug\WCFSeguridadApps.csproj.AssemblyReference.cache
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\obj\Debug\WCFSeguridadApps.csproj.CoreCompileInputs.cache
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\obj\Debug\WCFSeguridadApps.csproj.CopyComplete
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\obj\Debug\WCFSeguridadApps.dll
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\obj\Debug\WCFSeguridadApps.pdb
