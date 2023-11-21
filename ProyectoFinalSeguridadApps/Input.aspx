@@ -95,10 +95,7 @@
                         <br />
                         <br />
                         <asp:Label runat="server" ID="lblDecrypt"></asp:Label>
-                        <br />
-                        <br />
-                        <%--<asp:Label runat="server" ID="lblResult" Text="<%$ Resources:Labels,MaskedValue %>" ></asp:Label>--%>
-                        <br />
+                        <br /> 
                         <br />
                         <asp:Label runat="server" ID="lblMessage" CssClass="Message"></asp:Label>
                     </asp:TableCell>

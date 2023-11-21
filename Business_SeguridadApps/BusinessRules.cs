@@ -10,10 +10,15 @@ namespace Business_SeguridadApps
     public class BusinessRules
     {
 
-        static readonly string notvalid_chr = @"['%&<>*;]";
-        static readonly string creditcard_pattern = @"[0-9]{16}|(([0-9]{4}[-|\s]){3}[0-9]{4})";
-        const string pattern = @"^[w] +[^'%&<>#*]/$";
+        static readonly string notvalid_chr = @"['%&<>*;]"; // Not valid characters 
+        static readonly string creditcard_pattern = @"[0-9]{16}|(([0-9]{4}[-|\s]){3}[0-9]{4})"; // This is the pattern to validate the input value has a credit card number. 
+        const string pattern = @"^[w] +[^'%&<>#*]/$";  // pattern for any input value.
 
+        /// <summary>
+        /// Iif the input string does not march with the expected pattern return false.
+        /// </summary>
+        /// <param name="InputString"></param>
+        /// <returns></returns>
         bool ValidateMatch(string InputString)
         {
             try
@@ -26,6 +31,11 @@ namespace Business_SeguridadApps
             }
 
         }
+        /// <summary>
+        /// Validate if the input string march with the expected pattern.
+        /// </summary>
+        /// <param name="InputString"></param>
+        /// <returns></returns>
         public InputResult ValidateInputText(string InputString)
         {
             InputResult result = new InputResult();
@@ -33,7 +43,7 @@ namespace Business_SeguridadApps
             {
                 result.IsMatch = ValidateMatch(InputString);
                 if (!result.IsMatch)
-                {
+                {// Replace the invalid characters from the input string. 
                     result.SanitizedString = Regex.Replace(InputString, @notvalid_chr, "");
                     if (result.SanitizedString.Length < InputString.Length)
                     {
@@ -43,6 +53,7 @@ namespace Business_SeguridadApps
                 }
                 else
                 {
+                    /// if input string matches with the pattern, returns the value and message to confirm. 
                     result.SanitizedString = InputString;
                     result.Message = "Input string is valid. :) ";
                 }
@@ -54,7 +65,11 @@ namespace Business_SeguridadApps
             }
             return result;
         }
-
+        /// <summary>
+        /// Receives the input from user and gets the credit card number if exists. 
+        /// </summary>
+        /// <param name="inputText"></param>
+        /// <returns></returns>
         public CreditCard GetCreditCardInfo(string inputText)
         {
             CreditCard cc = new CreditCard();
@@ -96,6 +111,11 @@ namespace Business_SeguridadApps
             return cc;
 
         }
+        /// <summary>
+        /// returns the card number if it matches with the establish pattern .
+        /// </summary>
+        /// <param name="inputText"></param>
+        /// <returns></returns>
         string GetCreditCardNum(string inputText)
         {
             Match cardId = Regex.Match(inputText, creditcard_pattern);
@@ -104,7 +124,11 @@ namespace Business_SeguridadApps
             else
                 return string.Empty;
         }
-
+        /// <summary>
+        /// Gets the index where the credit card number starts into the input string. 
+        /// </summary>
+        /// <param name="inputText"></param>
+        /// <returns></returns>
         int GetCreditCardNum_Index(string inputText)
         {
             Match cardId = Regex.Match(inputText, creditcard_pattern);
@@ -113,7 +137,11 @@ namespace Business_SeguridadApps
             else
                 return 0;
         }
-
+        ///<summary>
+        /// Encode the credit card number with AES256 and SHA256 
+        /// </summary>
+        /// <param name="data"></param>
+        /// <returns></returns>
         public EncodingData EncodingCreditCard(string data)
         {
             EncodingData ed = new EncodingData();
@@ -128,7 +156,11 @@ namespace Business_SeguridadApps
             }
             return ed;
         }
-
+        /// <summary>
+        /// Returns the SHA256 value for the input string.
+        /// </summary>
+        /// <param name="MaskedInput"></param>
+        /// <returns></returns>
         string GenerateSHA256(string MaskedInput)
         {
             StringBuilder hash = new StringBuilder();
@@ -144,6 +176,11 @@ namespace Business_SeguridadApps
             return hash.ToString();
 
         }
+        /// <summary>
+        /// Method to manage the encrypt and decrypt process. 
+        /// </summary>
+        /// <param name="EncodedString"></param>
+        /// <returns></returns>
         CryptoData AES256_EncryptManaged(string EncodedString)
         {
             CryptoData cd = new CryptoData();
@@ -173,7 +210,13 @@ namespace Business_SeguridadApps
             }
             return cd;
         }
-
+        /// <summary>
+        /// returns the encrypted value (byte[]) 
+        /// </summary>
+        /// <param name="encryptedText"></param>
+        /// <param name="Key"></param>
+        /// <param name="IV"></param>
+        /// <returns></returns>
         byte[] Encrypt(string encryptedText, byte[] Key, byte[] IV)
         {
             byte[] encrypted;
@@ -193,7 +236,13 @@ namespace Business_SeguridadApps
             }
             return encrypted;
         }
-
+        /// <summary>
+        /// Decrypt the encrypted value received.
+        /// </summary>
+        /// <param name="encryptedText"></param>
+        /// <param name="Key"></param>
+        /// <param name="IV"></param>
+        /// <returns></returns>
         string Decrypt(byte[] encryptedText, byte[] Key, byte[] IV)
         {
             string decryptText = string.Empty;

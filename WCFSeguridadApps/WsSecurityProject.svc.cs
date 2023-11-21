@@ -4,8 +4,12 @@ using System;
 
 namespace WCFSeguridadApps
 {
-      public class WsSecurityProject : ISecurityProject
-    {
+    public class WsSecurityProject : ISecurityProject
+    {/// <summary>
+     /// Returns if the input string is valid. Cleans the value if it has invalid characters. 
+     /// </summary>
+     /// <param name="inputstring"></param>
+     /// <returns></returns>
         public Validate ValidateInputText(SecurityInput inputstring)
         {
 
@@ -22,6 +26,11 @@ namespace WCFSeguridadApps
             }
             return result;
         }
+        /// <summary>
+        /// Gets the Credit Card Number from the input string and the masked value of it 
+        /// </summary>
+        /// <param name="inputText"></param>
+        /// <returns></returns>
         public CreditCardInf GetCreditCardNum(SecurityInput inputText)
         {
             CreditCardInf cc = new CreditCardInf();
@@ -38,6 +47,11 @@ namespace WCFSeguridadApps
             return cc;
         }
 
+        /// <summary>
+        /// Processes the credit card number to encrypt / decrypt the card number. 
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         public Result ProcessCreditCardNumber(SanitizedInput input)
         {
             BusinessRules manager = new BusinessRules();
