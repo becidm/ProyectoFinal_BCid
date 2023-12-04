@@ -56,3 +56,4 @@ C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridad
 C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\obj\Debug\ProyectoFinalSeguridadApps.csproj.CopyComplete
 C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\obj\Debug\ProyectoFinalSeguridadApps.dll
 C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\obj\Debug\ProyectoFinalSeguridadApps.pdb
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\obj\Debug\ProyectoFinalSeguridadApps.csproj.AssemblyReference.cache
