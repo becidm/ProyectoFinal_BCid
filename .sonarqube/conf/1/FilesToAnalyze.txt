@@ -1,0 +1,4 @@
+﻿C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\Business_SeguridadApps\BusinessRules.cs
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\Business_SeguridadApps\Properties\AssemblyInfo.cs
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\Business_SeguridadApps\Structures.cs
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\Business_SeguridadApps\packages.config

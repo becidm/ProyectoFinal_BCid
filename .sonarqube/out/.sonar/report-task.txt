@@ -1,0 +1,6 @@
+projectKey=BCid_Final
+serverUrl=http://18.222.178.31:9000
+serverVersion=9.9.0.65466
+dashboardUrl=http://18.222.178.31:9000/dashboard?id=BCid_Final
+ceTaskId=AYxARMLMjPKjMqxJW0wP
+ceTaskUrl=http://18.222.178.31:9000/api/ce/task?id=AYxARMLMjPKjMqxJW0wP

@@ -1,0 +1,225 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "3.11.0.0",
+        "fileVersion": "3.11.0-4.22108.8 (d9bef045)",
+        "semanticVersion": "3.11.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S3926",
+          "level": "warning",
+          "message": "Add deserialization event handlers.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Cursos/Codificaci%C3%B3n%20Segura/ProyectoFinalSeguridadApps/ProyectoFinalSeguridadApps/Connected%20Services/WebService/Reference.cs",
+                "region": {
+                  "startLine": 232,
+                  "startColumn": 26,
+                  "endLine": 232,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3926",
+          "level": "warning",
+          "message": "Add deserialization event handlers.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Cursos/Codificaci%C3%B3n%20Segura/ProyectoFinalSeguridadApps/ProyectoFinalSeguridadApps/Connected%20Services/WebService/Reference.cs",
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 26,
+                  "endLine": 187,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3926",
+          "level": "warning",
+          "message": "Add deserialization event handlers.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Cursos/Codificaci%C3%B3n%20Segura/ProyectoFinalSeguridadApps/ProyectoFinalSeguridadApps/Connected%20Services/WebService/Reference.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 26,
+                  "endLine": 20,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3926",
+          "level": "warning",
+          "message": "Add deserialization event handlers.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Cursos/Codificaci%C3%B3n%20Segura/ProyectoFinalSeguridadApps/ProyectoFinalSeguridadApps/Connected%20Services/WebService/Reference.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 26,
+                  "endLine": 110,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3926",
+          "level": "warning",
+          "message": "Add deserialization event handlers.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Cursos/Codificaci%C3%B3n%20Segura/ProyectoFinalSeguridadApps/ProyectoFinalSeguridadApps/Connected%20Services/WebService/Reference.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 26,
+                  "endLine": 65,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3926",
+          "level": "warning",
+          "message": "Add deserialization event handlers.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Cursos/Codificaci%C3%B3n%20Segura/ProyectoFinalSeguridadApps/ProyectoFinalSeguridadApps/Connected%20Services/WebService/Reference.cs",
+                "region": {
+                  "startLine": 341,
+                  "startColumn": 26,
+                  "endLine": 341,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3926",
+          "level": "warning",
+          "message": "Add deserialization event handlers.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Cursos/Codificaci%C3%B3n%20Segura/ProyectoFinalSeguridadApps/ProyectoFinalSeguridadApps/Connected%20Services/WebService/Reference.cs",
+                "region": {
+                  "startLine": 386,
+                  "startColumn": 26,
+                  "endLine": 386,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3926",
+          "level": "warning",
+          "message": "Add deserialization event handlers.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Cursos/Codificaci%C3%B3n%20Segura/ProyectoFinalSeguridadApps/ProyectoFinalSeguridadApps/Connected%20Services/WebService/Reference.cs",
+                "region": {
+                  "startLine": 540,
+                  "startColumn": 26,
+                  "endLine": 540,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3926",
+          "level": "warning",
+          "message": "Add deserialization event handlers.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Cursos/Codificaci%C3%B3n%20Segura/ProyectoFinalSeguridadApps/ProyectoFinalSeguridadApps/Connected%20Services/WebService/Reference.cs",
+                "region": {
+                  "startLine": 463,
+                  "startColumn": 26,
+                  "endLine": 463,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S3926": {
+          "id": "S3926",
+          "shortDescription": "Deserialization methods should be provided for \"OptionalField\" members",
+          "fullDescription": "Fields marked with System.Runtime.Serialization.OptionalFieldAttribute are serialized just like any other field. But such fields are ignored on deserialization, and retain the default values associated with their types. Therefore, deserialization event handlers should be declared to set such fields during the deserialization process.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3926",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -101,12 +101,12 @@ namespace Business_SeguridadApps
                 else
                 {
                     cc.Message  = "Ingrese un número de tarjeta débito/crédito para continuar. (XXXX-XXXX-XXXX-XXXX)";
-                    throw new Exception(cc.Message);
+                    throw new ArgumentNullException(cc.Message);
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             { 
-                cc.IsValid = false;
+                cc.IsValid = false; 
             }
             return cc;
 

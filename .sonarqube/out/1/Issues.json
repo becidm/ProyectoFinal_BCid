@@ -1,0 +1,198 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "3.11.0.0",
+        "fileVersion": "3.11.0-4.22108.8 (d9bef045)",
+        "semanticVersion": "3.11.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S6444",
+          "level": "warning",
+          "message": "Pass a timeout to limit the execution time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Cursos/Codificaci%C3%B3n%20Segura/ProyectoFinalSeguridadApps/Business_SeguridadApps/BusinessRules.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 24,
+                  "endLine": 26,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6444",
+          "level": "warning",
+          "message": "Pass a timeout to limit the execution time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Cursos/Codificaci%C3%B3n%20Segura/ProyectoFinalSeguridadApps/Business_SeguridadApps/BusinessRules.cs",
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 28,
+                  "endLine": 121,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6444",
+          "level": "warning",
+          "message": "Pass a timeout to limit the execution time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Cursos/Codificaci%C3%B3n%20Segura/ProyectoFinalSeguridadApps/Business_SeguridadApps/BusinessRules.cs",
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 28,
+                  "endLine": 134,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S5542",
+          "level": "warning",
+          "message": "Use secure mode and padding scheme.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Cursos/Codificaci%C3%B3n%20Segura/ProyectoFinalSeguridadApps/Business_SeguridadApps/BusinessRules.cs",
+                "region": {
+                  "startLine": 189,
+                  "startColumn": 49,
+                  "endLine": 189,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6444",
+          "level": "warning",
+          "message": "Pass a timeout to limit the execution time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Cursos/Codificaci%C3%B3n%20Segura/ProyectoFinalSeguridadApps/Business_SeguridadApps/BusinessRules.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 46,
+                  "endLine": 47,
+                  "endColumn": 91
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S5542",
+          "level": "warning",
+          "message": "Use secure mode and padding scheme.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Cursos/Codificaci%C3%B3n%20Segura/ProyectoFinalSeguridadApps/Business_SeguridadApps/BusinessRules.cs",
+                "region": {
+                  "startLine": 224,
+                  "startColumn": 45,
+                  "endLine": 224,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S5542",
+          "level": "warning",
+          "message": "Use secure mode and padding scheme.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Cursos/Codificaci%C3%B3n%20Segura/ProyectoFinalSeguridadApps/Business_SeguridadApps/BusinessRules.cs",
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 45,
+                  "endLine": 249,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S5542": {
+          "id": "S5542",
+          "shortDescription": "Encryption algorithms should be used with secure mode and padding scheme",
+          "fullDescription": "Encryption algorithms should use secure modes and padding schemes where appropriate to guarantee data confidentiality and integrity.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-5542",
+          "properties": {
+            "category": "Critical Vulnerability",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6444": {
+          "id": "S6444",
+          "shortDescription": "Not specifying a timeout for regular expressions is security-sensitive",
+          "fullDescription": "Not specifying a timeout for regular expressions can lead to a Denial-of-Service attack. Pass a timeout when using System.Text.RegularExpressions to process untrusted input because a malicious user might craft a value for which the evaluation lasts excessively long.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6444",
+          "properties": {
+            "category": "Major Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

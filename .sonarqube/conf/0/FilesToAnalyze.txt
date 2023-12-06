@@ -1,0 +1,21 @@
+﻿C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Input.aspx.cs
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Input.aspx.designer.cs
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Properties\AssemblyInfo.cs
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Connected Services\WebService\ProyectoFinalSeguridadApps.WebService.CreditCardInf.datasource
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Connected Services\WebService\ProyectoFinalSeguridadApps.WebService.Result.datasource
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Connected Services\WebService\ProyectoFinalSeguridadApps.WebService.Validate.datasource
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Input.aspx
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Web.config
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\App_GlobalResources\Labels.resx
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Connected Services\WebService\WsSecurityProject.disco
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Connected Services\WebService\configuration91.svcinfo
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Connected Services\WebService\configuration.svcinfo
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Connected Services\WebService\Reference.svcmap
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Connected Services\WebService\WsSecurityProject.wsdl
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Connected Services\WebService\WsSecurityProject.xsd
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Connected Services\WebService\WsSecurityProject1.xsd
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Connected Services\WebService\WsSecurityProject2.xsd
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Connected Services\WebService\WsSecurityProject3.xsd
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\packages.config
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Web.Debug.config
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\ProyectoFinalSeguridadApps\Web.Release.config

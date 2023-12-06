@@ -1,0 +1,7 @@
+﻿C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\WsSecurityProject.svc.cs
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\ISecurityProject.cs
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\Properties\AssemblyInfo.cs
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\WsSecurityProject.svc
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\Web.config
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\Web.Debug.config
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\WCFSeguridadApps\Web.Release.config

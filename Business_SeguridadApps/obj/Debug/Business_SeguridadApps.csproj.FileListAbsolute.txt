@@ -3,3 +3,5 @@ C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\Assemblies\Business_Se
 C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\Business_SeguridadApps\obj\Debug\Business_SeguridadApps.csproj.CoreCompileInputs.cache
 C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\Business_SeguridadApps\obj\Debug\Business_SeguridadApps.dll
 C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\Business_SeguridadApps\obj\Debug\Business_SeguridadApps.pdb
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\Business_SeguridadApps\obj\Debug\Business_SeguridadApps.csproj.AssemblyReference.cache
+C:\Cursos\Codificación Segura\ProyectoFinalSeguridadApps\Business_SeguridadApps\obj\Debug\Business_SeguridadApps.csproj.CopyComplete
